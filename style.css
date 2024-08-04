@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.myClass{ 
+    margin-top: 50px;
+    width: 400px;
+    /*border-width: 10px;
+    border-style: solid;
+    border-color:rgb(83, 68, 182) ;*/
+    border: 10px, solid, rgb(110, 64, 99);
+    border-radius: 30px;
+    padding: 50px; 
+    text-decoration: wavy;
+   text-align: center ;
+}
+
+h1{
+    margin-bottom: 75px ;
+}
+
+input{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+button{
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(193, 104, 172);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#result{
+    font-size: 25px;
+
+}
