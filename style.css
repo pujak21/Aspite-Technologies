@@ -1,42 +1,155 @@
-body{
-    display: flex;
-    justify-content: center;
-}
-
-.myClass{ 
-    margin-top: 50px;
-    width: 400px;
-    /*border-width: 10px;
-    border-style: solid;
-    border-color:rgb(83, 68, 182) ;*/
-    border: 10px, solid, rgb(110, 64, 99);
-    border-radius: 30px;
-    padding: 50px; 
-    text-decoration: wavy;
-   text-align: center ;
-}
-
-h1{
-    margin-bottom: 75px ;
-}
-
-input{
-    margin-bottom: 20px;
-    text-align: center;
+.header{
     font-size: 30px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 550px;
+}
+.header span{
+    font-size: 75px;
+    color:rgb(230, 114, 59); 
+    
+}
+
+.about span{
+
+    color: rgb(230, 114, 59);
+}
+
+.education span{
+    color: rgb(230, 114, 59);
+}
+
+.skills span{
+    color: rgb(230, 114, 59);
+}
+
+.projects span{
+    color: rgb(230, 114, 59);
+}
+
+.goals span{
+    color: rgb(230, 114, 59);
+}
+
+.tools span{
+    color: rgb(230, 114, 59);
+}
+
+.bmi span{
+    color: blueviolet;
 
 }
 
-button{
+.text span{
+    color: blueviolet;
+}
+
+.attendance span{
+    color: blueviolet;
+
+}
+.puja span{
+    color: rgb(238, 34, 116);
+    text-decoration:underline;
+    font-weight: bold;
+}
+.ipu span{
+    color: rgb(238, 34, 116);
+    text-decoration:underline;
+    font-weight: bold;
+
+}
+.web span{
+    color: rgb(238, 34, 116);
+    text-decoration:underline;
+    font-weight: bold;
+
+}
+.sociallinks span{
+    color: rgb(230, 114, 59);
+
+}
+
+body{
+    background-image: url("portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 2%;
+
+}
+
+.logos{
+    width: 160px;
+    cursor: pointer;
+    
+}
+
+.logoss{
+    width: 160px;
+    cursor: pointer;
+}
+.logosss{
+    width: 160px;
+    cursor: pointer;
+
+}
+
+
+ul.circle {
+    list-style-type: circle; 
+  }
+
+li {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Project styles */
+.project {
+    
+    padding: 10px;
     margin-bottom: 20px;
-    height: 35px;
-    border-radius: 10px;
-    background-color: rgb(193, 104, 172);
-    color: aliceblue;
-    font-size: 20px;
+    border-radius: 5px;
 }
 
-#result{
-    font-size: 25px;
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
+.project p {
+    margin-bottom: 5px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  
+    bottom: 0;
+    width: 100%;
 }
